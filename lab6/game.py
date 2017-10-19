@@ -134,9 +134,7 @@ def print_room(room):
     print()
     print_room_items(room)
 
-    #
-    # COMPLETE ME!
-    #
+
 
 def exit_leads_to(exits, direction):
     """This function takes a dictionary of exits and a direction (a particular
@@ -387,8 +385,8 @@ def main():
         execute_command(command)
         if len(rooms["Reception"]["items"]) ==6 :
             won=True
-    print("\n\nCongrats!\n\nYou completed set of conditions to achieve a win condition.\nEnjoy the warm feeling this gives you!")
-
+    print("\nYou successfully manage to cause an obstruction.\nStaff glare at you as you scurry away. ")
+    print("\nYour job here is done")
 
 
 # Are we being run as a script? If so, run main().
