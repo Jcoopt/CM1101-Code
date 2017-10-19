@@ -371,6 +371,9 @@ def main():
     global current_carry_mass
     current_carry_mass = calculate_carry_mass(inventory)
     won=False
+    print("You have decided to cause a mild amount of annoyance to the staff. \nYou have worked out that the way to do "
+          "this best is by dropping as many items on the reception floor as possible.   \nYou would be littering "
+          "and causing a mild trip hazard. \nYou laugh maniacally at what you can only describe as 'pure evil' ")
     # Main game loop
     while not (won):
         # Display game status (room description, inventory etc.)
